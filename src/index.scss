@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&family=Nunito+Sans:wght@400;500;600;700;800&display=swap");
+@import "styles/custom";
+
+* {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+}
+
+body {
+    background-color: #eee
+}
+
+.MuiInputLabel-root {
+    font-family: 'Nunito', sans-serif !important;
+}

@@ -1,0 +1,55 @@
+.search-box {
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(12, 4, 52);
+    margin: 0 70px;
+    width: calc(100% - 140px);
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 45px;
+    column-gap: 30px;
+
+    .btn {
+        width: auto;
+        height: 45px;
+
+        .MuiSvgIcon-root {
+            color: #eee;
+        }
+    }
+
+    .MuiInput-input {
+        font-family: 'Nunito', sans-serif;
+        color: #eee;
+    }
+
+    .MuiInput-underline {
+        &:before {
+            border-bottom: 1px solid rgba(110, 64, 234, 0.42);
+        }
+
+        &:after {
+            border-bottom: 2px solid rgb(110, 64, 234);
+        }
+    }
+
+    .Mui-focused {
+        color: white !important;
+    }
+
+    .MuiInputLabel-formControl {
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .css-88nv5c-MuiInputBase-root-MuiInput-root-MuiSelect-root {
+        margin-bottom: 1px;
+        color: white;
+
+        .MuiSvgIcon-root {
+            color: rgb(110, 64, 234);
+        }
+    }
+}
